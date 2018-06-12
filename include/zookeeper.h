@@ -22,12 +22,12 @@
 #include <stdlib.h>
 
 /* we must not include config.h as a public header */
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <sys/socket.h>
 #include <sys/time.h>
 #endif
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 #include <winsock2.h> /* must always be included before ws2tcpip.h */
 #include <ws2tcpip.h> /* for struct sock_addr and socklen_t */
 #endif
@@ -74,7 +74,7 @@
 #ifdef DLL_EXPORT
 #    define ZOOAPI __declspec(dllexport)
 #else
-#  if (defined(__CYGWIN__) || defined(WIN32)) && !defined(USE_STATIC_LIB)
+#  if (defined(__CYGWIN__) || defined(ZK_WIN32_64)) && !defined(USE_STATIC_LIB)
 #    define ZOOAPI __declspec(dllimport)
 #  else
 #    define ZOOAPI
@@ -536,7 +536,7 @@ ZOOAPI struct sockaddr* zookeeper_get_connected_host(zhandle_t *zh,
  * timeout value specified in zookeeper_init()
  * ZSYSTEMERROR -- a system (OS) error occurred; it's worth checking errno to get details
  */
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 ZOOAPI int zookeeper_interest(zhandle_t *zh, SOCKET *fd, int *interest, 
 	struct timeval *tv);
 #else
