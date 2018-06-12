@@ -1,0 +1,5 @@
+D:/bridge2/vc_zkProj/build/CMakeFiles/hashtable.dir
+D:/bridge2/vc_zkProj/build/CMakeFiles/zookeeper.dir
+D:/bridge2/vc_zkProj/build/CMakeFiles/cli.dir
+D:/bridge2/vc_zkProj/build/CMakeFiles/ALL_BUILD.dir
+D:/bridge2/vc_zkProj/build/CMakeFiles/ZERO_CHECK.dir

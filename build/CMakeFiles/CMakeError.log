@@ -1,0 +1,725 @@
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2640c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:34。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_2640c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2640c.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2640c.dir\Debug\cmTC_2640c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2640c.dir\Debug\cmTC_2640c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2640c.dir\Debug\\" /Fd"cmTC_2640c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2640c.dir\Debug\\" /Fd"cmTC_2640c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “arpa/inet.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_2640c.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_2640c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_2640c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “arpa/inet.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_2640c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.57
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_73f29.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:35。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_73f29.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_73f29.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_73f29.dir\Debug\cmTC_73f29.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_73f29.dir\Debug\cmTC_73f29.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73f29.dir\Debug\\" /Fd"cmTC_73f29.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73f29.dir\Debug\\" /Fd"cmTC_73f29.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_73f29.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_73f29.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_73f29.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_73f29.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.63
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_88399.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:40。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_88399.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_88399.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_88399.dir\Debug\cmTC_88399.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_88399.dir\Debug\cmTC_88399.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88399.dir\Debug\\" /Fd"cmTC_88399.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88399.dir\Debug\\" /Fd"cmTC_88399.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netdb.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_88399.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_88399.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_88399.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netdb.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_88399.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.61
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4601d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:41。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4601d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4601d.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_4601d.dir\Debug\cmTC_4601d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4601d.dir\Debug\cmTC_4601d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4601d.dir\Debug\\" /Fd"cmTC_4601d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4601d.dir\Debug\\" /Fd"cmTC_4601d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4601d.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4601d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4601d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4601d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.57
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c7922.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:45。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_c7922.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c7922.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c7922.dir\Debug\cmTC_c7922.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c7922.dir\Debug\cmTC_c7922.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7922.dir\Debug\\" /Fd"cmTC_c7922.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7922.dir\Debug\\" /Fd"cmTC_c7922.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_c7922.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_c7922.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_c7922.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_c7922.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.60
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8de5c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:46。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_8de5c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8de5c.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8de5c.dir\Debug\cmTC_8de5c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8de5c.dir\Debug\cmTC_8de5c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8de5c.dir\Debug\\" /Fd"cmTC_8de5c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8de5c.dir\Debug\\" /Fd"cmTC_8de5c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_8de5c.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_8de5c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_8de5c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_8de5c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.59
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_74a93.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:48。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_74a93.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_74a93.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_74a93.dir\Debug\cmTC_74a93.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_74a93.dir\Debug\cmTC_74a93.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74a93.dir\Debug\\" /Fd"cmTC_74a93.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74a93.dir\Debug\\" /Fd"cmTC_74a93.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_74a93.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_74a93.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_74a93.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_74a93.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.58
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4aefe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:50。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4aefe.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4aefe.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_4aefe.dir\Debug\cmTC_4aefe.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4aefe.dir\Debug\cmTC_4aefe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4aefe.dir\Debug\\" /Fd"cmTC_4aefe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4aefe.dir\Debug\\" /Fd"cmTC_4aefe.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4aefe.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4aefe.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4aefe.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_4aefe.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.81
+
+
+Determining if the include file sys/utsname.h exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b484f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:51。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_b484f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b484f.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b484f.dir\Debug\cmTC_b484f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b484f.dir\Debug\cmTC_b484f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b484f.dir\Debug\\" /Fd"cmTC_b484f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b484f.dir\Debug\\" /Fd"cmTC_b484f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_b484f.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_b484f.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_b484f.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_b484f.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.58
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_19e68.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:53。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_19e68.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_19e68.dir\Debug\cmTC_19e68.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_19e68.dir\Debug\cmTC_19e68.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e68.dir\Debug\\" /Fd"cmTC_19e68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e68.dir\Debug\\" /Fd"cmTC_19e68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_19e68.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_19e68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_19e68.lib" /MACHINE:X64  /machine:x64 cmTC_19e68.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gethostbyname，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_19e68.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gethostbyname，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_19e68.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_19e68.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.96
+
+
+Determining if the function gethostname exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24254.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:55。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_24254.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_24254.dir\Debug\cmTC_24254.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_24254.dir\Debug\cmTC_24254.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24254.dir\Debug\\" /Fd"cmTC_24254.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24254.dir\Debug\\" /Fd"cmTC_24254.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_24254.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_24254.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_24254.lib" /MACHINE:X64  /machine:x64 cmTC_24254.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gethostname，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_24254.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gethostname，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_24254.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_24254.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.96
+
+
+Determining if the function getlogin exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_40690.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:56。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_40690.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_40690.dir\Debug\cmTC_40690.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_40690.dir\Debug\cmTC_40690.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getlogin /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40690.dir\Debug\\" /Fd"cmTC_40690.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getlogin /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40690.dir\Debug\\" /Fd"cmTC_40690.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_40690.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_40690.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_40690.lib" /MACHINE:X64  /machine:x64 cmTC_40690.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getlogin，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_40690.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getlogin，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_40690.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_40690.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.99
+
+
+Determining if the function getpwuid_r exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9d227.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:57。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9d227.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9d227.dir\Debug\cmTC_9d227.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9d227.dir\Debug\cmTC_9d227.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d227.dir\Debug\\" /Fd"cmTC_9d227.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d227.dir\Debug\\" /Fd"cmTC_9d227.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d227.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_9d227.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_9d227.lib" /MACHINE:X64  /machine:x64 cmTC_9d227.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getpwuid_r，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d227.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getpwuid_r，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d227.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9d227.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.96
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_66739.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:58。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_66739.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_66739.dir\Debug\cmTC_66739.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_66739.dir\Debug\cmTC_66739.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66739.dir\Debug\\" /Fd"cmTC_66739.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66739.dir\Debug\\" /Fd"cmTC_66739.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_66739.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_66739.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_66739.lib" /MACHINE:X64  /machine:x64 cmTC_66739.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_66739.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_66739.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_66739.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.96
+
+
+Determining if the function getuid exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9ab8c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:37:59。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9ab8c.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9ab8c.dir\Debug\cmTC_9ab8c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9ab8c.dir\Debug\cmTC_9ab8c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ab8c.dir\Debug\\" /Fd"cmTC_9ab8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ab8c.dir\Debug\\" /Fd"cmTC_9ab8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9ab8c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_9ab8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_9ab8c.lib" /MACHINE:X64  /machine:x64 cmTC_9ab8c.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getuid，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9ab8c.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getuid，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_9ab8c.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_9ab8c.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.95
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_12d36.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:38:03。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_12d36.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_12d36.dir\Debug\cmTC_12d36.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_12d36.dir\Debug\cmTC_12d36.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12d36.dir\Debug\\" /Fd"cmTC_12d36.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12d36.dir\Debug\\" /Fd"cmTC_12d36.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_12d36.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_12d36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_12d36.lib" /MACHINE:X64  /machine:x64 cmTC_12d36.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 poll，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_12d36.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 poll，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_12d36.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_12d36.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.98
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_34e08.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:38:04。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_34e08.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_34e08.dir\Debug\cmTC_34e08.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_34e08.dir\Debug\cmTC_34e08.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34e08.dir\Debug\\" /Fd"cmTC_34e08.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34e08.dir\Debug\\" /Fd"cmTC_34e08.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_34e08.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_34e08.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp/Debug/cmTC_34e08.lib" /MACHINE:X64  /machine:x64 cmTC_34e08.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 socket，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj]
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_34e08.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 socket，该符号在函数 main 中被引用 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj]
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\cmTC_34e08.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_34e08.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.98
+
+
+Performing C SOURCE FILE Test ZOO_IPV6_ENABLED failed with the following output:
+Change Dir: D:/bridge2/vc_zkProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc0b3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/12 15:38:11。
+节点 1 上的项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_cc0b3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc0b3.dir\Debug\”。
+  正在创建目录“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc0b3.dir\Debug\cmTC_cc0b3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc0b3.dir\Debug\cmTC_cc0b3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ZOO_IPV6_ENABLED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc0b3.dir\Debug\\" /Fd"cmTC_cc0b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ZOO_IPV6_ENABLED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc0b3.dir\Debug\\" /Fd"cmTC_cc0b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_cc0b3.vcxproj]
+已完成生成项目“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_cc0b3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_cc0b3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\bridge2\vc_zkProj\build\CMakeFiles\CMakeTmp\cmTC_cc0b3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.61
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_addr);
+   return 0;
+}
+
