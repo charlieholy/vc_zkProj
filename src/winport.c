@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 #include "winport.h"
 #include <stdlib.h>
 #include <stdint.h> /* for int64_t */

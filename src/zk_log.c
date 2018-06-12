@@ -21,7 +21,7 @@
 #endif
 
 #include "zookeeper_log.h"
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <unistd.h>
 #else
 typedef DWORD pid_t;
@@ -35,7 +35,7 @@ typedef DWORD pid_t;
 #define FORMAT_LOG_BUF_SIZE 4096
 
 #ifdef THREADED
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <pthread.h>
 #else 
 #include "winport.h"
@@ -131,7 +131,7 @@ void log_message(ZooLogLevel curLevel,int line,const char* funcName,
     static const char* dbgLevelStr[]={"ZOO_INVALID","ZOO_ERROR","ZOO_WARN",
             "ZOO_INFO","ZOO_DEBUG"};
     static pid_t pid=0;
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     char timebuf [TIME_NOW_BUF_SIZE];
 #endif
     if(pid==0)pid=getpid();
@@ -140,7 +140,7 @@ void log_message(ZooLogLevel curLevel,int line,const char* funcName,
     fprintf(LOGSTREAM, "%s:%ld:%s@%s@%d: %s\n", time_now(get_time_buffer()),(long)pid,
             dbgLevelStr[curLevel],funcName,line,message);
 #else
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     fprintf(LOGSTREAM, "%s:%d(0x%lx):%s@%s@%d: %s\n", time_now(timebuf),pid,
             (unsigned long int)(pthread_self().thread_id),
             dbgLevelStr[curLevel],funcName,line,message);      

@@ -30,7 +30,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <sys/time.h>
 #include <unistd.h>
 #include <sys/select.h>

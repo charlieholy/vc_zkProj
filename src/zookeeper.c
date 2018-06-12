@@ -79,7 +79,7 @@
 #include <pwd.h>
 #endif
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 #define random rand /* replace POSIX random with Windows rand */
 #include <process.h> /* for getpid */
 #include <direct.h> /* for getcwd */
@@ -445,7 +445,7 @@ static void destroy(zhandle_t *zh)
 
 static void setup_random()
 {
-#ifndef WIN32          // TODO: better seed
+#ifndef ZK_WIN32_64          // TODO: better seed
     int seed;
     int fd = open("/dev/urandom", O_RDONLY);
     if (fd == -1) {
@@ -634,7 +634,7 @@ int getaddrs(zhandle_t *zh)
 #endif
             if (rc != 0) {
                 errno = getaddrinfo_errno(rc);
-#ifdef WIN32
+#ifdef ZK_WIN32_64
                 LOG_ERROR(("Win32 message: %s\n", gai_strerror(rc)));
 #else
                 LOG_ERROR(("getaddrinfo: %s\n", strerror(errno)));
@@ -809,7 +809,7 @@ zhandle_t *zookeeper_init(const char *host, watcher_fn watcher,
     char *index_chroot = NULL;
 
     log_env();
-#ifdef WIN32
+#ifdef ZK_WIN32_64
        if (Win32WSAStartup()){
                LOG_ERROR(("Error initializing ws2_32.dll"));
                return 0;
@@ -1063,7 +1063,7 @@ static __attribute__ ((unused)) int get_queue_len(buffer_head_t *list)
  * 0 if send would block while sending the buffer (or a send was incomplete),
  * 1 if success
  */
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 static int send_buffer(SOCKET fd, buffer_list_t *buff)
 #else
 static int send_buffer(int fd, buffer_list_t *buff)
@@ -1117,7 +1117,7 @@ static int send_buffer(int fd, buffer_list_t *buff)
  * 0 if recv would block,
  * 1 if success
  */
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 static int recv_buffer(SOCKET fd, buffer_list_t *buff)
 #else
 static int recv_buffer(int fd, buffer_list_t *buff)
@@ -1574,7 +1574,7 @@ static struct timeval get_timeval(int interval)
     return rc<0 ? rc : adaptor_send_queue(zh, 0);
 }
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 int zookeeper_interest(zhandle_t *zh, SOCKET *fd, int *interest,
      struct timeval *tv)
 {
@@ -1607,7 +1607,7 @@ int zookeeper_interest(zhandle_t *zh, int *fd, int *interest,
             zh->connect_index = 0;
         }else {
             int rc;
-#ifdef WIN32
+#ifdef ZK_WIN32_64
             char enable_tcp_nodelay = 1;
 #else
             int enable_tcp_nodelay = 1;
@@ -1623,7 +1623,7 @@ int zookeeper_interest(zhandle_t *zh, int *fd, int *interest,
             if (ssoresult != 0) {
                 LOG_WARN(("Unable to set TCP_NODELAY, operation latency may be effected"));
             }
-#ifdef WIN32
+#ifdef ZK_WIN32_64
             ioctlsocket(zh->fd, FIONBIO, &nonblocking_flag);                    
 #else
             fcntl(zh->fd, F_SETFL, O_NONBLOCK|fcntl(zh->fd, F_GETFL, 0));
@@ -1637,7 +1637,7 @@ int zookeeper_interest(zhandle_t *zh, int *fd, int *interest,
             {
 #endif
                 rc = connect(zh->fd, (struct sockaddr*) &zh->addrs[zh->connect_index], sizeof(struct sockaddr_in));
-#ifdef WIN32
+#ifdef ZK_WIN32_64
                 errno = GetLastError();
 
 #ifndef EWOULDBLOCK
@@ -1691,7 +1691,7 @@ int zookeeper_interest(zhandle_t *zh, int *fd, int *interest,
         // have we exceeded the receive timeout threshold?
         if (recv_to <= 0) {
             // We gotta cut our losses and connect to someone else
-#ifdef WIN32
+#ifdef ZK_WIN32_64
             errno = WSAETIMEDOUT;
 #else
             errno = ETIMEDOUT;
@@ -2179,7 +2179,7 @@ void process_completions(zhandle_t *zh)
 
 static void isSocketReadable(zhandle_t* zh)
 {
-#ifndef WIN32
+#ifndef ZK_WIN32_64
     struct pollfd fds;
     fds.fd = zh->fd;
     fds.events = POLLIN;
@@ -2586,7 +2586,7 @@ finish:
     destroy(zh);
     adaptor_destroy(zh);
     free(zh);
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     Win32WSACleanup();
 #endif
     return rc;
@@ -3311,7 +3311,7 @@ int flush_send_queue(zhandle_t*zh, int timeout)
 {
     int rc= ZOK;
     struct timeval started;
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     fd_set pollSet; 
     struct timeval wait;
 #endif
@@ -3332,7 +3332,7 @@ int flush_send_queue(zhandle_t*zh, int timeout)
                 break;
             }
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
             wait = get_timeval(timeout-elapsed);
             FD_ZERO(&pollSet);
             FD_SET(zh->fd, &pollSet);
@@ -3480,7 +3480,7 @@ static const char* format_endpoint_info(const struct sockaddr_storage* ep)
     static char buf[128];
     char addrstr[128];
     void *inaddr;
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     char * addrstring;
 #endif
     int port;
@@ -3498,7 +3498,7 @@ static const char* format_endpoint_info(const struct sockaddr_storage* ep)
 #if defined(AF_INET6)
     }
 #endif
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     addrstring = inet_ntoa (*(struct in_addr*)inaddr); 
     sprintf(buf,"%s:%d",addrstring,ntohs(port));
 #else

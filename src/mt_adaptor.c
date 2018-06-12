@@ -37,7 +37,7 @@
 #include <assert.h>
 #include <errno.h>
 
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <signal.h>
 #include <poll.h>
 #include <unistd.h>
@@ -110,7 +110,7 @@ int process_async(int outstanding_sync)
     return 0;
 }
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 unsigned __stdcall do_io( void * );
 unsigned __stdcall do_completion( void * );
 
@@ -170,7 +170,7 @@ void *do_completion(void *);
 
 int wakeup_io_thread(zhandle_t *zh);
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 static int set_nonblock(SOCKET fd){
     ULONG nonblocking_flag = 1;
     if (ioctlsocket(fd, FIONBIO, &nonblocking_flag) == 0)
@@ -237,7 +237,7 @@ int adaptor_init(zhandle_t *zh)
     }
 
     /* We use a pipe for interrupting select() in unix/sol and socketpair in windows. */
-#ifdef WIN32   
+#ifdef ZK_WIN32_64   
     if (create_socket_pair(adaptor_threads->self_pipe) == -1){
        LOG_ERROR(("Can't make a socket."));
 #else
@@ -324,7 +324,7 @@ int wakeup_io_thread(zhandle_t *zh)
 {
     struct adaptor_threads *adaptor_threads = zh->adaptor_priv;
     char c=0;
-#ifndef WIN32
+#ifndef ZK_WIN32_64
     return write(adaptor_threads->self_pipe[1],&c,1)==1? ZOK: ZSYSTEMERROR;    
 #else
     return send(adaptor_threads->self_pipe[1], &c, 1, 0)==1? ZOK: ZSYSTEMERROR;    
@@ -342,7 +342,7 @@ int adaptor_send_queue(zhandle_t *zh, int timeout)
 
 /* These two are declared here because we will run the event loop
  * and not the client */
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 int zookeeper_interest(zhandle_t *zh, SOCKET *fd, int *interest,
         struct timeval *tv);
 #else
@@ -351,14 +351,14 @@ int zookeeper_interest(zhandle_t *zh, int *fd, int *interest,
 #endif
 int zookeeper_process(zhandle_t *zh, int events);
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 unsigned __stdcall do_io( void * v)
 #else
 void *do_io(void *v)
 #endif
 {
     zhandle_t *zh = (zhandle_t*)v;
-#ifndef WIN32
+#ifndef ZK_WIN32_64
     struct pollfd fds[2];
     struct adaptor_threads *adaptor_threads = zh->adaptor_priv;
 
@@ -446,7 +446,7 @@ void *do_io(void *v)
     return 0;
 }
 
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 unsigned __stdcall do_completion( void * v)
 #else
 void *do_completion(void *v)
@@ -481,7 +481,7 @@ int32_t inc_ref_counter(zhandle_t* zh,int i)
 
 int32_t fetch_and_add(volatile int32_t* operand, int incr)
 {
-#ifndef WIN32
+#ifndef ZK_WIN32_64
     return __sync_fetch_and_add(operand, incr);
 #else
     return InterlockedExchangeAdd(operand, incr);

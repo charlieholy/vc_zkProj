@@ -20,7 +20,7 @@
 #define ZK_ADAPTOR_H_
 #include <zookeeper.jute.h>
 #ifdef THREADED
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <pthread.h>
 #else
 #include "winport.h"
@@ -160,7 +160,7 @@ struct adaptor_threads {
      pthread_cond_t cond;       // barrier's conditional
      pthread_mutex_t lock;      // ... and a lock
      pthread_mutex_t zh_lock;   // critical section lock
-#ifdef WIN32
+#ifdef ZK_WIN32_64
      SOCKET self_pipe[2];
 #else
      int self_pipe[2];
@@ -181,7 +181,7 @@ typedef struct _auth_list_head {
  */
 
 struct _zhandle {
-#ifdef WIN32
+#ifdef ZK_WIN32_64
     SOCKET fd; /* the descriptor used to talk to zookeeper */
 #else
     int fd; /* the descriptor used to talk to zookeeper */

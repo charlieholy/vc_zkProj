@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stdlib.h>
-#ifndef WIN32
+#ifndef ZK_WIN32_64
 #include <netinet/in.h>
 #else
 #include <winsock2.h> /* for _htonl and _ntohl */
