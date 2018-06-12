@@ -20,7 +20,7 @@
 
 #include <sys/types.h>
 #include <stdint.h> /* for int64_t */
-#ifdef WIN32
+#ifdef ZK_WIN32_64
 #include "winconfig.h"
 #define STRUCT_INITIALIZER(l,r)  r
 #else
